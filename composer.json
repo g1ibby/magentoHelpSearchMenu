@@ -1,0 +1,22 @@
+{
+    "name": "oggetto/help-search-menu",
+    "type": "magento-module",
+    "license": "MIT",
+    "homepage": "https://github.com/wss-world/magentoHelpSearchMenu",
+    "description": "Search by menu in the admin area, as in Mac OS X",
+    "authors": [
+        {
+        	"name": "Sergei Waribrus",
+        	"email": "wss.world@gmail.com"
+        }
+    ],
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "extra": {
+        "map": [
+            ["app/etc/modules/Oggetto_HelpSearchMenu.xml", "app/etc/modules/Oggetto_HelpSearchMenu.xml"],
+            ["app/code/local/Oggetto/HelpSearchMenu", "app/code/local/Oggetto/HelpSearchMenu"]
+        ]
+    }
+}
