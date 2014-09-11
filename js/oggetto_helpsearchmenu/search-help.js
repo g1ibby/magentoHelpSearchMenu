@@ -36,6 +36,8 @@ function buildList(parent, branch)
 }
 
 jQuery( document ).ready(function( $ ) {
+    $("#page-help-link").before('<input class="help-search-menu" style="width: 350px" placeholder="Search menu"/>');
+
     var nav = $('#nav');
 
     var list = buildList(nav, {
